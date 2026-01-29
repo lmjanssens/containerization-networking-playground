@@ -5,6 +5,5 @@
         DateTimeOffset UtcNow { get; }
         DateTimeOffset LocalNow { get; }
         string LocalTimeZoneId { get; }
-
     }
 }

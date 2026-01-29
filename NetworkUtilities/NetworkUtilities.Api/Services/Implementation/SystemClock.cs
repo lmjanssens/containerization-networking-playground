@@ -9,6 +9,5 @@ namespace NetworkUtilities.Api.Services.Implementation
         public DateTimeOffset LocalNow => DateTimeOffset.Now;
 
         public string LocalTimeZoneId => TimeZoneInfo.Local.Id;
-
     }
 }
