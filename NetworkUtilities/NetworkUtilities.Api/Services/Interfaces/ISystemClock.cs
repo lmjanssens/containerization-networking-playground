@@ -5,5 +5,7 @@
         DateTimeOffset UtcNow { get; }
         DateTimeOffset LocalNow { get; }
         string LocalTimeZoneId { get; }
+        string Weekend { get; }
+        int DaysTillWeekend { get; }
     }
 }

@@ -27,7 +27,9 @@ namespace NetworkUtilities.Api.Controllers
             {
                 UtcNow = _clock.UtcNow,
                 LocalNow = _clock.LocalNow,
-                LocalTimeZoneId = _clock.LocalTimeZoneId
+                LocalTimeZoneId = _clock.LocalTimeZoneId,
+                Weekend = _clock.Weekend,
+                DaysTillWeekend = _clock.DaysTillWeekend,
             };
 
             _logger.LogInformation($"UTC Now: {_clock.UtcNow}, Local Now: {_clock.LocalNow}, Local Time Zone: {_clock.LocalTimeZoneId}");
