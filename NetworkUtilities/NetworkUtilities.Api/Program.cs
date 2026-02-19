@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 
 // Register DI
 builder.Services.AddSingleton<ISystemClock, SystemClock>();
+builder.Services.AddSingleton<ISystemInfoService, SystemInfoService>();
 
 builder.Services.AddOpenApi();
 
